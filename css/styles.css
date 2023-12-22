@@ -720,6 +720,7 @@ img {
   letter-spacing: 0.04em;
   display: block;
   margin-bottom: 4px;
+  color: var(--customers-icons);
 }
 .modal-input {
   width: 100%;
@@ -784,4 +785,17 @@ img {
   background-color: var(--logo-main-color);
   border: none;
   border-radius: 4px;
+}
+.wrapper {
+  margin-bottom: 8px;
+}
+.wrapper-input {
+  position: relative;
+}
+.modal-input:hover,
+.modal-input:focus {
+  border-color: var(--logo-main-color);
+}
+.modal-comment {
+  margin-bottom: 16px;
 }
