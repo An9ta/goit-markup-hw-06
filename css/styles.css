@@ -783,7 +783,6 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  background-color: var(--link-hover-focus);
 }
 .send-button {
   display: block;
