@@ -820,11 +820,6 @@ img {
 .privacy-input {
   fill: var(--logo-main-color);
 }
-.privacy-input:checked {
-  background-color: var(--link-hover-focus);
-  border: none;
-  fill: var(--footer-color);
-}
 .modal-privacy {
   margin-bottom: 24px;
 }
@@ -834,7 +829,7 @@ img {
 .check-icon {
   gap: 8px;
 }
-.privacy-input-input:checked + .privacy-label .checkbox-span {
+.privacy-input:checked + .privacy-label .checkbox-span {
   background-color: var(--link-hover-focus);
   border: none;
   fill: var(--footer-color);
