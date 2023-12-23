@@ -814,6 +814,16 @@ img {
 .privacy-input {
   fill: var(--logo-main-color);
 }
+.privacy-input:checked {
+  background-color: var(--link-hover-focus);
+  border: none;
+  fill: var(--footer-color);
+}
+.checkbox-span {
+  background-color: var(--link-hover-focus);
+  border: none;
+  fill: var(--footer-color);
+}
 .modal-privacy {
   margin-bottom: 24px;
 }
