@@ -783,6 +783,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .send-button {
   display: block;
@@ -832,4 +833,7 @@ img {
   background-color: var(--link-hover-focus);
   border: none;
   fill: var(--footer-color);
+}
+.subscribe-window {
+  margin-left: 80px;
 }
