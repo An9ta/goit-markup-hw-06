@@ -832,3 +832,6 @@ img {
 .privacy-policy {
   color: var(--logo-main-color);
 }
+.check-icon {
+  gap: 8px;
+}
