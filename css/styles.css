@@ -82,14 +82,12 @@ span {
   color: var(--background-color-section);
   padding: 24px 0;
   display: inline-block;
+  font-weight: 500;
 }
 .link-boolean {
   color: var(--background-color-section);
   text-decoration: none;
   padding: 24px 0;
-}
-.boolean {
-  font-weight: 500;
 }
 .section-first {
   background-color: var(--background-color-section);
@@ -321,9 +319,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.section-third {
-  padding-bottom: 120px;
 }
 .list-item {
   display: flex;
@@ -637,6 +632,7 @@ img {
 .close-btn:focus {
   border: none;
   background-color: var(--link-hover-focus);
+  fill: var(--background-color);
 }
 .close-button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -801,6 +797,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.send-button:hover {
+  background-color: var(--link-hover-focus);
+}
 .wrapper {
   margin-bottom: 8px;
 }
@@ -810,7 +809,6 @@ img {
 .wrapper-input:focus-within {
   fill: var(--logo-main-color);
 }
-.modal-input:hover,
 .modal-input:focus {
   border-color: var(--logo-main-color);
 }
@@ -825,6 +823,7 @@ img {
 }
 .privacy-policy {
   color: var(--logo-main-color);
+  text-decoration: underline;
 }
 .check-icon {
   gap: 8px;
@@ -836,4 +835,8 @@ img {
 }
 .subscribe-window {
   margin-left: 80px;
+}
+.subscribe-button:hover {
+  background-color: var(--link-hover-focus);
+  cursor: pointer;
 }
